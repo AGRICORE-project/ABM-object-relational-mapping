@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  agricore-abm-object-relational-mapping:
+    image: registry.idener.es/agricore/abm:latest
+    build:
+      context: .
+      dockerfile: AGRICORE-ABM-object-relational-mapping/Dockerfile
+    networks:
+      - agricore-abm-network
+    ports:
+      - 80:80
+    environment:
+        POSTGRES_CONNECTIONSTRING: Host=agricore-abm-database;Port=5432;Database=agricore-abm-database;Username=rw_dev;Password=rw_dev
+        SIMULATION_MANAGER_BASE: # TO_MODIFY: Add here the url wher the simulation manager has been deployed
+
+  agricore-abm-database:
+    container_name: agricore-abm-database
+    image: postgres:13
+    restart: always
+    ports:
+      - "7432:5432" 
+    environment:
+      POSTGRES_DB: agricore-abm-database
+      POSTGRES_USER: rw_dev
+      POSTGRES_PASSWORD: rw_dev
+      TZ: Europe/Madrid
+    volumes:
+      - agricore-abm-database-postgres-data:/var/lib/postgresql/data
+    networks:
+      - agricore-abm-network
+
+            
+volumes:
+  agricore-abm-database-postgres-data: 
+
+networks:
+  agricore-abm-network:
+  

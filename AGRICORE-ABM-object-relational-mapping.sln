@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGRICORE-ABM-object-relational-mapping", "AGRICORE-ABM-object-relational-mapping\AGRICORE-ABM-object-relational-mapping.csproj", "{25E387E7-D0C5-439A-9608-6B3BA85F586E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB", "DB\DB.csproj", "{4BD9CFA4-EE15-4825-87E4-5D458696E738}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{83B4BCF8-A2C9-4D3E-8C6B-6EA491C29B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E387E7-D0C5-439A-9608-6B3BA85F586E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E387E7-D0C5-439A-9608-6B3BA85F586E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E387E7-D0C5-439A-9608-6B3BA85F586E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E387E7-D0C5-439A-9608-6B3BA85F586E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD9CFA4-EE15-4825-87E4-5D458696E738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD9CFA4-EE15-4825-87E4-5D458696E738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD9CFA4-EE15-4825-87E4-5D458696E738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD9CFA4-EE15-4825-87E4-5D458696E738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B4BCF8-A2C9-4D3E-8C6B-6EA491C29B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B4BCF8-A2C9-4D3E-8C6B-6EA491C29B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B4BCF8-A2C9-4D3E-8C6B-6EA491C29B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B4BCF8-A2C9-4D3E-8C6B-6EA491C29B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2630C60-F3DA-4438-8E30-8408283E594A}
+	EndGlobalSection
+EndGlobal

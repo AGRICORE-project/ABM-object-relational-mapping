@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "AGRICORE-ABM-object-relational-mapping": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:55707;http://localhost:55708"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:55707",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:55707;http://localhost:55708"
+      },
+      "distributionName": ""
+    }
+  }
+}

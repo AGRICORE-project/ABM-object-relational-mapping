@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "agricore-abm-object-relational-mapping",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
+      "serviceActions": {
+        "agricore-abm-object-relational-mapping": "StartDebugging",
+        "agricore-abm-database": "StartWithoutDebugging"
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+,FADN code,Crop description,Arable
+0,10110,Common wheat and spelt,true
+1,10120,Durum wheat,true
+2,10130,Rye,true
+3,10140,Barley,false
+4,10150,Oats,true
+5,10160,Grain maize,true
+6,10170,Rice,false
+7,10190,Other cereals for the production of grain,true
+8,10210,"Peas, field beans and sweet lupines",true
+9,10220,"Lentils, chickpeas and vetches",true
+10,10290,Other protein crops,false
+11,10300,Potatoes (including early potatoes and seed potatoes),false
+12,10390,Other potatoes,true
+13,10400,Sugar beet (excluding seed),true
+14,10500,Fodder roots and brassicas (excluding seed),false
+15,10601,Tobacco,false
+16,10603,Hops,false
+17,10604,Rape and turnip rape,false
+18,10605,Sunflower,true
+19,10606,Soya,true
+20,10608,Other oil seed crops,true
+21,10612,"Aromatic plants, medical and culinary plants",false
+22,10690,Other industrial crops not mentioned elsewhere,false
+23,10711,"Fresh vegetables, melons and strawberries: -Open field",false
+24,10712,"Fresh vegetables, melons and strawberries: -Market gardening",false
+25,10720,"Fresh vegetables, melons and strawberries: -Under glass or under other (accessible) protective cover",false
+26,10731,Cauliflower and broccoli,false
+27,10732,Lettuce,false
+28,10733,Tomatoes,true
+29,10734,Sweet corn,false
+30,10735,Onions,false
+31,10736,Garlic,false
+32,10737,Carrots,false
+33,10738,Strawberries,false
+34,10739,Melons,false
+35,10790,Other vegetables,false
+36,10810,Flowers and ornamental plants: -Outdoor or under low protective cover,false
+37,10820,Flowers and ornamental plants: -Under glass or under other protective cover,false
+38,10830,"Flower bulbs, corms and tubers",false
+39,10840,Cut flowers and flowerbuds,false
+40,10850,Flowering and ornamental plants,false
+41,10910,Temporary grass,false
+42,10921,Green maize,true
+43,10922,Leguminous plants,true
+44,10923,Other plants harvested green but not mentioned elsewhere,true
+45,11000,Arable land seed and seedling,false
+46,11210,Fallow land without subsidies,false
+47,11220,"Fallow land subject to the payment of subsidies, with no economic use",false
+48,11300,"Land ready for sowind leased to others, including land made available as a benefit in kind",false
+49,30100,"Pasture and meadow, excludin rough grazing",true
+50,30200,Rough grazing,true
+51,30300,Permanent grassland no longer used for production purposes and eligible for the payment of subsidies,false
+52,40111,Apples,false
+53,40113,Peaches and nectarines,false
+54,40114,Other fruit of temperate zones,false
+55,40115,Fruit of subtropical or tropical zones,false
+56,40120,Berry species,false
+57,40130,Nuts,false
+58,40210,Oranges,false
+59,40220,"Tangerines, mandarins, clementies and similar small fruits",false
+60,40230,Lemons,false
+61,40290,Other citrus fruit,false
+62,40310,Table olives,false
+63,40320,Olives for oil production (sold in the form of fruit),false
+64,40330,Olive oil,false
+65,40411,Quality wine with protected designation of origin (PDO),false
+66,40420,Other wines,false
+67,40430,Table grapes,false
+68,40451,Grapes for quality wine with protected designation of origin (PDO),false
+69,40452,Grapes for quality wine with protected geographical indication (PGI),false
+70,40460,Grapes for other wines,false
+71,40500,Nurseries,false
+72,40700,Permanent crops under glass,false
+73,50100,Unutilised agricultural land,false
+74,50200,Wooded area,false
+75,50900,"Other land: occupied by buildings, farmyards, tracks, ponds quarries, infertile land, rock, etc",false
+76,90900,Other,false
+77,90100,Receipts from renting out agricultural land,false
+78,10607,Linseed (oil flax),true
+79,10609,flax,true
+80,10610,Hemp,true
+81,18454,Other plants harvested green but not mentioned elsewhere,false
